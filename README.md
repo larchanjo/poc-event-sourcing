@@ -4,25 +4,15 @@ This is a simple poc using Event Sourcing pattern
 
 # Setup
 
-## Run
-Execute the command bellow
+## MongoDB
 
 ~~~
-cd ${project}/resources/docker && 
-docker-compose up -d
-~~~
-
-## Stop
-
-~~~
-cd ${project}/resources/docker && 
-docker-compose stop
+docker run -d --name=mongo --net=host mongo
 ~~~
 
 # Testing
 
-~~~
-~~~
+Open the Intellij and the file `Test.http`
 
 # References
 
