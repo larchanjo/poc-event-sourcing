@@ -6,7 +6,7 @@ import org.springframework.transaction.annotation.Transactional
 import org.springframework.util.StringUtils
 
 @Service
-class PlayerService(val repository: PlayerRepository) {
+class PlayerService(val repository: WrapperPlayerRepository) {
 
     val log = LoggerFactory.getLogger(this::class.java)
 
