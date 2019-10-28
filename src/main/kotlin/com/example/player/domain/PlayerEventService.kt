@@ -19,4 +19,9 @@ class PlayerEventService(val repository: PlayerEventRepository) {
         log.info("Saved $playerEvent")
     }
 
+    fun get(id: String): Collection<Player> {
+        log.info("Finding events by player=[$id]")
+        return repository.findByPlayerId(id)
+    }
+
 }

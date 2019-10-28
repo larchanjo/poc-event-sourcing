@@ -20,3 +20,8 @@ GET http://localhost:8080/v1/players
 Content-Type: application/json
 
 ###
+
+GET http://localhost:8080/v1/players/bc54b875-5b6b-4ec7-8743-114b765ff333/events
+Content-Type: application/json
+
+###
