@@ -13,9 +13,3 @@ docker run -d --name=mongo --net=host mongo
 # Testing
 
 Open the Intellij and the file `Test.http`
-
-# References
-
-[Kafka Docker]
-
-[Kafka Docker]: https://github.com/wurstmeister/kafka-docker
